@@ -11,7 +11,9 @@
     "test:watch": "vitest --watch",
     "test:ui": "vitest --ui",
     "convert:docs": "node src/convert-to-markdown.js",
-    "clean:markdown": "node src/clean-markdown.js"
+    "clean:markdown": "node src/clean-markdown.js",
+    "validate:docs": "node src/validate-markdown.js",
+    "review:docs": "node src/review-markdown.js"
   },
   "keywords": [],
   "author": "",
